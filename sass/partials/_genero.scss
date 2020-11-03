@@ -1,0 +1,22 @@
+
+.genero {
+    margin-top: 20px;
+}
+
+.genero-botton {
+    background-color: $botones;
+    padding: 8px 15px 8px 12px;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    
+    &:hover{
+        background-color:$botones-hover;
+    }
+}
+
+.genero-botton + .genero-botton{
+    margin-left: 15px;
+}
